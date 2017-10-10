@@ -1,0 +1,30 @@
+.getINtouch{
+ padding-left: 15px;
+     padding-right: 15px; 
+}
+.aa input{
+    height: 51px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #777;
+    border: 1px solid #f2f3f5;
+
+    background: #f2f3f5
+}
+.aa p, .bb p{
+    font-size: 16px;
+    margin-top:5px;
+}
+textarea{
+    height: 200px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #777;
+    border: 1px solid #f2f3f5;
+    margin-top:5px;
+    background: #f2f3f5
+}

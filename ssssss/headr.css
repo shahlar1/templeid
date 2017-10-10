@@ -1,0 +1,48 @@
+.info{
+    background: black;
+    height: 50px;
+    
+}
+.phone{
+    margin-top: 20px;
+}
+.phone i{
+    color: #f9ad40;
+    font-size:20px;
+    }
+.phone a{
+    color: white;
+    margin-left:20px;
+   margin-right: 20px;
+}
+
+.face{
+     text-align: right;
+}
+.face i{
+   
+    color: #fff;
+    font-size: 20px;
+    cursor:pointer;
+    margin-right: 20px;
+    margin-top:20px;
+}
+.facebook:hover{
+    color: #375089;
+}
+.twitter:hover{
+color: #0092d0;
+}
+.google:hover{
+    color: #dc4e41
+}
+.instagram:hover{
+    color: #ae3d9d;
+}
+.rss:hover{
+
+}
+.aaa{
+    position: fixed;
+    top:50px;
+}

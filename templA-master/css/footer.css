@@ -1,0 +1,84 @@
+.footer-a{
+    background: black;
+}
+h5{
+    color: white;
+    margin-left:25px;
+}
+li{
+    list-style-type: none;
+    margin-bottom: 15px;
+    
+}
+li a {
+      color: #f9ad40;
+    
+    text-decoration: none;
+    
+}
+li a:hover{
+    color: #f7980f;
+}
+
+.tags .aa{
+ 
+    text-align: center;
+    margin-right: 10px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #f9ad40;
+    margin-bottom: 10px;
+    padding-top:5px;
+}
+.aa{
+   color: #f9ad40; 
+
+}
+
+.aa:hover{
+      color: #fff;
+    background: #f9ad40;
+    border: 1px solid #f9ad40;
+      text-decoration: none;
+}
+.clearfix{
+    width: 0;
+    height: 0;
+    clear: both;
+}
+.ContactInformation i{
+    font-size: 20px;
+    color:#fff;
+}
+.text{
+        color: #777;
+}
+.shah{
+    margin: 20px 0;
+}
+.shahl i{
+    margin-top:20px;
+    margin-right: 15px;
+        width: 30px;
+height: 30px;
+border-radius: 50%;
+background: #777;
+text-align: center;
+padding-top: 5px;
+}
+
+.facebook:hover{
+   background-color: #375089;
+}
+.twitter:hover{
+  background-color: #0092d0;
+}
+.google:hover{
+     background-color: #dc4e41
+}
+.instagram:hover{
+      background-color: #ae3d9d;
+}
+.rss:hover{
+    background: #cf7800;
+}

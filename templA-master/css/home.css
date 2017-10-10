@@ -1,0 +1,49 @@
+
+header {
+  height: 600px;
+
+  
+  
+  position: relative; }
+  header .myNavbar {
+    min-height: 120px;
+    transition: all 1s; }
+    header .myNavbar ul.nav {
+      margin-top: 30px; }
+      header .myNavbar ul.nav a {
+        color: #000; }
+  header .navbar-inverse {
+    min-height: 50px; }
+    header .navbar-inverse ul.nav {
+      margin-top: 0; }
+      header .navbar-inverse ul.nav a {
+        color:#fff !important; }
+    header .navbar-inverse .navbar-brand {
+      margin: 0;
+      padding: 0; }
+    header .navbar-inverse .logo {
+      height: 50px; }
+  header .btn-arrow-down {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    color: red;
+    font-size: 40px;
+    transform: translateX(-50%); }
+  
+
+
+.foto1{
+    position: relative;
+}
+.foto2{
+    position: absolute;
+    top:85%;
+    left: 30%
+}
+.books{
+  display: block;
+}
+.contenta{
+ background-image: url(https://livedemo00.template-help.com/wt_62311/images/backgrounds/bg-2.jpg)
+}
