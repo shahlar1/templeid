@@ -1,0 +1,32 @@
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left:10px;
+}
+ul li i{
+   width: 40px;
+   height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    padding:10px;
+    border-radius: 40px;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 40px;
+       color: #f9ad40;
+    background-color: transparent;
+    border-color: #f9ad40;
+     margin-bottom: 40px;
+}
+.btn:hover{
+color: #fff;
+    background-color: #f9ad40;
+    border-color: #f9ad40;
+   
+}
+.thehabits{
+  margin-top:50px;
+}
