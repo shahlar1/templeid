@@ -44,8 +44,21 @@
 .balance{
     width: 100%;
     position: relative;
+    transition: .3s ease-out all;
+    box-shadow: inset 0 -100px 200px 0 rgba(0, 0, 0, 0.6);
     
-    
+}
+
+.balance::before{
+    content: '';
+ z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    transition: .3s ease-out all;
+    box-shadow: inset 0 -100px 200px 0 rgba(0, 0, 0, 0.6);
+    right: 0;
 }
 .balance2{
     position: absolute;
@@ -71,8 +84,7 @@ font-size: 40px;
 
 }
 .balance:hover>img {
-    
-    background-color: rgba(0, 0, 0, 0.2);
-    transition: .3s ease-out all;
+    opacity: 0.6;
+    background-color: rgba(0, 0, 0, 0.6);    transition: .3s ease-out all;
     
 }
