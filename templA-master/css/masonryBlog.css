@@ -1,0 +1,30 @@
+body{
+    background: #777;
+}
+.sss{
+background: #fff;
+text-align: left;
+    height: 286px;
+}
+.sss a:hover{
+color: red;
+text-decoration: none;
+}
+.btn{
+    width: 120px;height: 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+        color: #fff;
+    background-color: #15aecf;
+    border-color: #15aecf;
+}
+
+
+.sss i{
+  color:red;
+}
+.sss .btn:hover{
+    color: #fff;
+    background-color: #f9ad40;
+    border-color: #f9ad40;
+}
