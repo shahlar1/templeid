@@ -78,7 +78,7 @@ font-size: 30px;
 
 .contenta{
   margin-top:100px;
-  height: 400px;
+  height: 500px;
  background-image: url(https://livedemo00.template-help.com/wt_62311/images/backgrounds/bg-2.jpg);
  
  background-size: cover
@@ -100,4 +100,29 @@ font-size: 30px;
   color: #fff;
   background-color: #15aecf;
   border-color: #15aecf;
+}
+.never12{
+  width: 100%;
+padding: 50px 0;
+position: relative;
+transition: background 3s
+
+}
+.sah{
+  margin:0 auto;
+}
+.never21{
+    position: absolute;
+    bottom: -3%;
+    left: 50%;
+    transform: translateX(-50%);
+    visibility: hidden;
+    transition: visibility  1s
+}
+.never12:hover{
+  background: white
+}
+.never12:hover>.never21{
+  visibility: visible;;
+  
 }
