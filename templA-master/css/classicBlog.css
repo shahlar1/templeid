@@ -1,0 +1,38 @@
+.ss{
+   background: #F4F6F9;
+    
+}
+.bsiness{
+    background: white;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #15aecf;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #15aecf;
+    border-color: #15aecf;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #f9ad40;
+    border-color: #f9ad40;
+}
+.bsiness i{
+    color: #f9ad40;
+}
+.btnl{
+    padding: 5px 10px;
+    
+    border: 1px solid #f9ad40;
+    color: #fff;
+    background-color: #f9ad40;
+    border-color: #f9ad40;
+}
+.btnl:hover{
+    color: #fff;
+    background-color: #15aecf;
+    border-color: #15aecf;
+    text-decoration: none;
+}
