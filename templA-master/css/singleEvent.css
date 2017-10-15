@@ -36,40 +36,35 @@ header {
       font-size: 40px;
       transform: translateX(-50%); }
     
-
-
-
-
-.getINtouch{
- padding-left: 15px;
-     padding-right: 15px; 
+  
+  
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
 }
-.aa input{
-    height: 51px;
-    width: 100%;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.5;
-    color: #777;
-    border: 1px solid #f2f3f5;
+ul li i{
+    margin-right: 10px;
+}
+.love{
+    text-align: center;
+}
+.fsce li{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #777;
+    border: 1px solid #777;
+    text-align: center;
+    
+}
+.fsce li:hover{
+    color: #fff;
+    background: #375089;
+    border-color: #375089;
+}
 
-    background: #f2f3f5
-}
-.aa p, .bb p{
-    font-size: 16px;
-    margin-top:5px;
-}
-textarea{
-    height: 200px;
-    width: 100%;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.5;
-    color: #777;
-    border: 1px solid #f2f3f5;
-    margin-top:5px;
-    background: #f2f3f5
-}
+
 
 
 

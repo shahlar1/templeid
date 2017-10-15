@@ -1,0 +1,36 @@
+body{
+    background: #393a3c;
+}
+.ss{
+    text-align: center;
+    color: #f9ad40;
+}
+h1{
+    margin:100px 0;
+}
+h3{
+   color:  #fff;
+}
+.ss{
+    margin:100px 0;
+    color: #bfbfbf;
+    
+}
+.aa{
+    color: #777;
+    font-size: 14px;
+}
+.btn-1{
+    width:  200px;
+    height: 30px;
+    background: #f9ad40;
+    border-radius: 30px;
+
+}
+.btn-1:hover{
+    color: #fff;
+    background-color: #15aecf;
+    border-color: #15aecf;
+    cursor: pointer;
+}
+

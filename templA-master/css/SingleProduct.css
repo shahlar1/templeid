@@ -1,7 +1,221 @@
 ul li{
 list-style-type: none;
 }
-ul .imgli{
+.thepower li{
     display: inline-block;
     
+}
+.btn{
+    width: 200px;
+    margin-top: 60px;
+    color: #fff;
+    background-color: #15aecf;
+    border-color: #15aecf;
+    border-radius: 20px;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #f9ad40;
+    border-color: #f9ad40;
+}
+.btn2{
+    padding:15px 30px;
+    height: 40px;
+    border:1px solid  #f9ad40;
+    background: #fff;
+    color:#f9ad40;
+    border-radius: 30px;
+}
+.btn2:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #f9ad40;
+    border-color: #f9ad40;
+}
+.ss h5{
+    margin-top: 40px;
+
+}
+.ss p{
+    margin-bottom: 30px;
+}
+
+
+.footer-a{
+    background: black;
+}
+h5{
+    color: white;
+    margin-left:25px;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 15px;
+    
+}
+li a {
+      color: #f9ad40;
+    
+    text-decoration: none;
+    
+}
+li a:hover{
+    color: #f7980f;
+}
+
+.tags .aa{
+ 
+    text-align: center;
+    margin-right: 10px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #f9ad40;
+    margin-bottom: 10px;
+    padding-top:5px;
+}
+.aa{
+   color: #f9ad40; 
+
+}
+
+.aa:hover{
+      color: #fff;
+    background: #f9ad40;
+    border: 1px solid #f9ad40;
+      text-decoration: none;
+}
+.clearfix{
+    width: 0;
+    height: 0;
+    clear: both;
+}
+.ContactInformation i{
+    font-size: 20px;
+    color:#fff;
+}
+.text{
+        color: #777;
+}
+.shah{
+    margin: 20px 0;
+}
+.shahl i{
+    margin-top:20px;
+    margin-right: 15px;
+        width: 30px;
+height: 30px;
+border-radius: 50%;
+background: #777;
+text-align: center;
+padding-top: 5px;
+}
+
+.facebook:hover{
+   background-color: #375089;
+}
+.twitter:hover{
+  background-color: #0092d0;
+}
+.google:hover{
+     background-color: #dc4e41
+}
+.instagram:hover{
+      background-color: #ae3d9d;
+}
+.rss:hover{
+    background: #cf7800;
+}
+
+
+
+
+
+
+
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
 }
